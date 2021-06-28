@@ -1,0 +1,25 @@
+.player{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    flex-direction: column;
+    margin-left: auto;
+}
+.time-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.player-control svg{
+    cursor: pointer;
+}
