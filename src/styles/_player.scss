@@ -1,6 +1,6 @@
 .player{
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 20vh;
@@ -12,6 +12,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    div{
+        padding: 0px 10px;
+    }
+    input{
+        width: 60%;
+    }
 
 }
 .player-control{
@@ -19,7 +25,13 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    svg{
+        cursor: pointer;
+        font-size: 30px;
+    }
 }
-.player-control svg{
-    cursor: pointer;
+@media(max-width:768px){
+    .player{
+        width: 100%;
+    }
 }
